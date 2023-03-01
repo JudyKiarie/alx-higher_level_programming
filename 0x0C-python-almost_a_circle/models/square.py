@@ -61,8 +61,8 @@ class Square(Rectangle):
             Overloading str function
         """
         return "[{}] ({}) {}/{} - {}".format(type(self).__name__,
-                                            self.id, self.x, self.y,
-                                            self.width)
+                                             self.id, self.x, self.y,
+                                             self.width)
 
     def to_dictionary(self):
         """
